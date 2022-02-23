@@ -1,0 +1,728 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The muses mistresse, or, A store-house of rich fancies by J.C. ; written at succidanious hours during the action at Newark ; with other high rapsodies, extracted from the choicest wits of our age.</title>
+            <author>Cotgrave, John, fl. 1655.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A34621</idno>
+            <idno type="STC">Wing C6369</idno>
+            <idno type="STC">ESTC R20901</idno>
+            <idno type="EEBO-CITATION">12259537</idno>
+            <idno type="OCLC">ocm 12259537</idno>
+            <idno type="VID">57797</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A34621)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 57797)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 177:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The muses mistresse, or, A store-house of rich fancies by J.C. ; written at succidanious hours during the action at Newark ; with other high rapsodies, extracted from the choicest wits of our age.</title>
+                  <author>Cotgrave, John, fl. 1655.</author>
+               </titleStmt>
+               <extent>[3], 18 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Written by John Cotgrave. Cf. NUC pre-1956.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:57797:1"/>
+            <pb facs="tcp:57797:1"/>
+            <p>THE MUSES MISTRESSE: OR, <hi>A STORE-HO<g ref="char:V">Ʋ</g>SE</hi> OF RICH FANCIES.</p>
+            <p>By <hi>J. C.</hi>
+            </p>
+            <p>Written at Succidanious hours du<g ref="char:EOLhyphen"/>ring the Action at <hi>NEWARK.</hi>
+            </p>
+            <p>With other high Rapſodies, extracted from the choiceſt Wits of our Age.</p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year. 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:57797:2"/>
+            <pb n="1" facs="tcp:57797:2"/>
+            <head>
+               <hi>The Lyons Tale;</hi> Occaſionally grounded on our firſt Warrs, and in private Copies diſ<g ref="char:EOLhyphen"/>perſed: with a great reward pro<g ref="char:EOLhyphen"/>miſed to whomſoever ſhould diſcover the Author.</head>
+            <l>
+               <seg rend="decorInit">T</seg>Hree witty Wags meeting by chance together,</l>
+            <l>Reſolv'd to Billet at<note n="*" place="bottom">A notable place for ſtrong tiple.</note> 
+               <hi>IT C<g ref="char:V">Ʋ</g>TS A FEATHER:</hi>
+            </l>
+            <l>Where to allay the fury of their Ale,</l>
+            <l>Each in his Order was to tell a Tale.</l>
+            <l>The firſt a POET and a PROPHET too,</l>
+            <l>Begun this Story without more adoe.</l>
+            <l>In <hi>Libia</hi> a <hi>Lyon</hi> once there was,</l>
+            <l>Who did in mildneſſe Others farre ſurpaſſe;</l>
+            <l>So meeke he was, and ſo indulgent too,</l>
+            <l>Some made a doubt if he were One or no.</l>
+            <l>While Others furniſhed their ravenous feaſts</l>
+            <l>Each day i'th' Week with ſeverall Kinds <hi>of Beaſts,</hi>
+            </l>
+            <pb n="2" facs="tcp:57797:3"/>
+            <l>Now with a mountain <hi>Goat,</hi> or butting <hi>Ram,</hi>
+            </l>
+            <l>Now wth a wanton <hi>kid,</hi> or harmleſſe <hi>Lambe,</hi>
+            </l>
+            <l>Now with a princely <hi>Stagge,</hi> or nimble <hi>Roe,</hi>
+            </l>
+            <l>A velve<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>-headed <hi>Bu<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>k</hi> or bouncing <hi>Doe;</hi>
+            </l>
+            <l>Wherewith they ſtor'd, if we may truſt the Fable,</l>
+            <l>In various diſhes their <hi>Vitellian</hi> Table.</l>
+            <l>This curteous <hi>Lyon</hi> was ſo humble grown</l>
+            <l>As he would ſcarce make uſage of his owne.</l>
+            <l>Others made <hi>booties</hi> of their <hi>Subjects,</hi> Hee</l>
+            <l>Both for their <hi>votes</hi> and <hi>voices</hi> made them free.</l>
+            <l>Others by their <hi>Projectors</hi> did devi<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e</l>
+            <l>New Impoſitions, Layes, Monopolies,</l>
+            <l>And to inlarge their <hi>Purlue,</hi> found a feat</l>
+            <l>To lay <hi>exciſe</hi> upon the meat they eat.</l>
+            <l>No antient <hi>forreſt Law</hi> but they were at it,</l>
+            <l>To ſwinge th' infringer with a <hi>penal Statute.</hi>
+            </l>
+            <l>None were exempted; for they would alledge</l>
+            <l>A Lyons will ſhould be his priviledge.</l>
+            <l>But theſe <hi>Examples</hi> could but little move</l>
+            <l>This tender <hi>Lyon,</hi> who was made of love.</l>
+            <l>Herds might ſecurely graze, or chuſe their way,</l>
+            <l>His royal Spirit ſcorn'd to make a prey</l>
+            <l>Of any Subject: nor ſtood they in danger:</l>
+            <l>If he were mov'd, it was a Princely anger:</l>
+            <l>And ſuch as their ſubmiſſion quickly might</l>
+            <l>Attemper well when it was at the height.</l>
+            <l>But ſee how <hi>Lenity</hi> may be abus'd!</l>
+            <l>Thoſe wrong'd him moſt, whom he had kindl'eſt us'd.</l>
+            <l>Theſe ill-condition'd Beaſts within a while</l>
+            <l>By th' poyſonous practiſe of the Crocodile,</l>
+            <pb n="3" facs="tcp:57797:3"/>
+            <l>Who for his ſubtile Councell might be well</l>
+            <l>Styl'd 'mongſt theſe Beaſts the ſole <hi>Achitophel,</hi>
+            </l>
+            <l>With one joynt voyce, vote and unite conſent</l>
+            <l>Begun to ſleight their Soveraigns government;</l>
+            <l>Whoſe ſweet indulgence ſuch contempt did bring</l>
+            <l>As none amongſt them but would play the king,</l>
+            <l>Or repreſent his perſon, or elſe be</l>
+            <l>As like unto a King in Majeſtie,</l>
+            <l>Port, poſture, preſence, though by uſurpation,</l>
+            <l>As their poore Cricket phyſnomy could faſhion.</l>
+            <l>There might you ſee <hi>Bull, Tigre, Bore</hi> and <hi>Bear,</hi>
+            </l>
+            <l>☞ The <hi>Cat a Mount, Pard, Dromodarie, Deare,</hi>
+            </l>
+            <l>The <hi>Griffin, Antilope,</hi> and <hi>Manticore,</hi>
+            </l>
+            <l>The Scythian <hi>Ounce,</hi> and Cretan <hi>Minotaure,</hi>
+            </l>
+            <l>The beak'd <hi>Rhinoceros</hi> and <hi>Porcupine,</hi>
+            </l>
+            <l>The <hi>Hybris, Hyene,</hi> Wolves of Erycine,</l>
+            <l>The <hi>Libbard, Bugle, Camel, Elephant,</hi>
+            </l>
+            <l>Which of <hi>all Beaſts</hi> they made their Preſidant,</l>
+            <l>For unto Him, they ought allegiance to,</l>
+            <l>Their <hi>knees</hi> were grown ſo ſtiff, they could not bow.</l>
+            <l>The <hi>Bever</hi> ſhew'd how he was in requeſt</l>
+            <l>VVith all degrees, both with the worſt and beſt:</l>
+            <l>But having found his <hi>Wool adulterate,</hi>
+            </l>
+            <l>It was not held fit <hi>ſtaple</hi> for the <hi>State.</hi>
+            </l>
+            <l>The precious <hi>Bezer</hi> too would ſtand for one,</l>
+            <l>And of his <hi>ſtones</hi> erect a royal Throne.</l>
+            <l>The <hi>Horn'd-Beaſts</hi> caus'd their <hi>Antlers</hi> to be ſawne</l>
+            <l>That they might ſtalk like <hi>Lyons</hi> ore the lawne.</l>
+            <l>And that they might be held more fit to raign,</l>
+            <l>Each got his <hi>curled front</hi> and <hi>braided maine.</hi>
+            </l>
+            <pb n="4" facs="tcp:57797:4"/>
+            <l>Theſe might you ſee rapt with <hi>Promethian</hi> heats,</l>
+            <l>To act the parts of Kingly Counterfeats.</l>
+            <l>Nor did theſe <hi>Great ones</hi> onely thus aſpire,</l>
+            <l>There ſprung <hi>ambition</hi> in the <hi>Lower quire;</hi>
+            </l>
+            <l>All had deſire in ſoveraignty to ſhare,</l>
+            <l>The <hi>Squirrell, Weaſel, Ferret</hi> and the <hi>Hare,</hi>
+            </l>
+            <l>The wanton <hi>Monkey,</hi> active <hi>Marmoſite,</hi>
+            </l>
+            <l>The ſhady Forreſts dainty Catomite,</l>
+            <l>The <hi>Reynald, Pollard, Vrchin</hi> and <hi>Baboun,</hi>
+            </l>
+            <l>All held in competition for the Crowne.</l>
+            <l>The <hi>Dormouſe</hi> needes would to a <hi>Scepter</hi> creep,</l>
+            <l>Though he knew no <hi>vocation</hi> but <hi>ſleep.</hi>
+            </l>
+            <l>The ſtone-blind <hi>Mole</hi> ſtraight left his pioning,</l>
+            <l>And though he ſaw no <hi>Court</hi> would act the <hi>King.</hi>
+            </l>
+            <l>Nay thoſe who differ'd moſt from <hi>Lyons ſhape,</hi>
+            </l>
+            <l>The skudding <hi>Coney, Badger, Ermin, Apo,</hi>
+            </l>
+            <l>That in their Lawleſſe Claimes they might prevail,</l>
+            <l>Supplide their wants by purchaſing a Taile.</l>
+            <l>In this anarchicall Seate None but would rule,</l>
+            <l>The <hi>Aſse</hi> would be a <hi>King,</hi> the Queen a <hi>Mule.</hi>
+            </l>
+            <l>Nay, what was worſt of all, the <hi>Lyons Jack,</hi>
+            </l>
+            <l>Who from revolting ſhould have kept <hi>theſe</hi> back,</l>
+            <l>Left his indeared Maſter, as if He</l>
+            <l>Reſolv'd with reſt to ſtand for Soveraigntie.</l>
+            <l>Unthankfull Mungrell! that a Prince ſo juſt</l>
+            <l>Should in a <hi>Protean puffin</hi> place ſuch truſt.</l>
+            <l>Nor had he worth to make him look ſo bigge,</l>
+            <l>Onely ſleek skin, and courtly Periwigge:</l>
+            <l>A ſilken-civet-comfit-curtain-Sward,</l>
+            <l>Who with his <hi>pawes</hi> a League contracted had.</l>
+            <pb n="5" facs="tcp:57797:4"/>
+            <l>The <hi>Elke</hi> likewiſe with his twice-branched head,</l>
+            <l>As if he had of curtſies ſurfeted,</l>
+            <l>Diſloyall to his Soveraign Liege appear'd,</l>
+            <l>By making head with that tumultuous Heard.</l>
+            <l>For that Amphibian temporizing Otter,</l>
+            <l>He gave but ayme, and ſhew'd himſelf a <hi>Nuter.</hi>
+            </l>
+            <l>Theſe State-diſtractions bred ſo great a rent,</l>
+            <l>The Forreſt loſt her face of government.</l>
+            <l>None of them all did in opinion ſute,</l>
+            <l>One needs would ſway the Empire abſolute;</l>
+            <l>Others more <hi>popular,</hi> deſire to ſee</l>
+            <l>The Monarchical State brought to Democracy;</l>
+            <l>Ariſtocratick, None, th' or'e-voted Peers,</l>
+            <l>Fear'd leſt the Rout ſhould have them by the ears.</l>
+            <l>Theſe having ſought to force him from his throne,</l>
+            <l>Stickt not to ſay, his <hi>Cave</hi> was not his own.</l>
+            <l>Which to redreſs, and ſalve thoſe wrongs were done him,</l>
+            <l>The loyal quick-ey'd <hi>Linx,</hi> as did become him,</l>
+            <l>Whoſe long experience politickly knew</l>
+            <l>By theſe Events what might e're long enſue;</l>
+            <l>Hyes to the <hi>
+                  <g ref="char:V">Ʋ</g>nicorn</hi> with winged ſpeed,</l>
+            <l>And tells him how the <hi>Springs</hi> were poyſoned;</l>
+            <l>Wiſhing that theſe might by his <hi>hoofe</hi> be tride,</l>
+            <l>Which were corrupt and which were purifide:</l>
+            <l>For if his Art applide no remedie</l>
+            <l>The Beaſts would periſh of a Lethargie;</l>
+            <l>Having drunk ſo of their <hi>Lethpan</hi> Spring,</l>
+            <l>As they'd forgot they ever had a King.</l>
+            <pb n="6" facs="tcp:57797:5"/>
+            <l>The <hi>Unicorn</hi> admitting no delay,</l>
+            <l>To-Brooks, Wells, Rivers makes his ſpeedy way:</l>
+            <l>Where having dipt his <hi>Horn,</hi> He does reſtore</l>
+            <l>And make thoſe wholſome were corrupt before,</l>
+            <l>Which brought this rare effect; thoſe that were ſick</l>
+            <l>Of the <hi>Colts evill,</hi> or were <hi>Lunatick,</hi>
+            </l>
+            <l>
+               <hi>Phrentrick,</hi> or <hi>Epileptick,</hi> or had <hi>knees</hi>
+            </l>
+            <l>They could not <hi>bend,</hi> a generall diſeaſe,</l>
+            <l>Or <hi>Liver-grown,</hi> or what Phyſitians call</l>
+            <l>
+               <hi>Contagious</hi> or <hi>Epidemicall,</hi>
+            </l>
+            <l>All receiv'd ſpeedy cure, and by this water</l>
+            <l>Were quite transform'd into an other nature.</l>
+            <l>Thus theſe <hi>Elpenors,</hi> who had loſt their ſhapes,</l>
+            <l>And chang'd their <hi>Habits</hi> with the <hi>Slough</hi> of Snakes,</l>
+            <l>For by <hi>Circaean</hi> Spells they ſtruck ſuch ſhelves,</l>
+            <l>They neither knew their Soveraign nor themſelves,</l>
+            <l>By th' expert <hi>Unicorns</hi> divineſt skill,</l>
+            <l>Were brought to ſpy and rectify their ill.</l>
+            <l>The loyal <hi>Linx</hi> unwilling to neglect</l>
+            <l>The iſſue of ſo glorious an effect,</l>
+            <l>Which was but in his <hi>Embrio,</hi> as he thought,</l>
+            <l>Till it to more perfection were brought;</l>
+            <l>Awakes the <hi>Lyon,</hi> tells him roundly how</l>
+            <l>His long <hi>indulgence</hi> had made this adoe;</l>
+            <l>Wiſh'd him to ſhew himſelf, ſince his retire</l>
+            <l>From State-affayres had caus'd them to aſpire.</l>
+            <l>Diſtinquiſh men (ſaid he) He cannot ſtrike</l>
+            <l>With equal hand that guerdons all alike.</l>
+            <l>"None with diſcretion ever him approv'd</l>
+            <l>"Who lov'd where ſcorn'd, and ſcorn'd where he was lov'd.</l>
+            <pb n="7" facs="tcp:57797:5"/>
+            <l>Let the <hi>Malignant party</hi> ſtreight receave</l>
+            <l>What their licencious acts deſerved have:</l>
+            <l>Theſe to give foment to their foul diſeaſe</l>
+            <l>Threw on your Perſon ſuch reports as theſe:</l>
+            <l>"Hee and his Branches could no comfort be,</l>
+            <l>"Nor merit th' Style of royall Majeſty,</l>
+            <l>"That <hi>Wicked Councel</hi> which upon him wait,</l>
+            <l>"Were Agents to procure him all this hate.</l>
+            <l>If ſuch words do not high <hi>Allegiance</hi> break,</l>
+            <l>It skills not much what ſaucy Subjects ſpeak.</l>
+            <l>Obſerve this <hi>Maxim</hi> then; it will behove you,</l>
+            <l>For 't comes from him whoſe heart does truly love you:</l>
+            <l>"He, who no difference makes 'twixt friend &amp; foe,</l>
+            <l>"Shall never know well how the world does goe.</l>
+            <l>Nay, He ſhall ſure before he ſee his end,</l>
+            <l>Foſter ten foes for one endeared friend.</l>
+            <l>The well-condition'd <hi>Lyon</hi> hearing this,</l>
+            <l>How they abus'd that <hi>Clemency</hi> of his,</l>
+            <l>For now ſo weake were his revenues grown,</l>
+            <l>He had no Laire nor Paſture of his own;</l>
+            <l>Rous'd himſelf up, and to the Forreſt goes</l>
+            <l>T' inflict condigne puniſhment on thoſe</l>
+            <l>Who had uſurp'd a Soveraignty of State;</l>
+            <l>And that He might his Honour vindicate,</l>
+            <l>From th' <hi>Elephant</hi> unto the ſilly <hi>Mouſe</hi>
+            </l>
+            <l>All ſummon'd were to his Grand-Seſſion-Houſe.</l>
+            <l>But theſe <hi>State-proſelites</hi> were all prepar'd</l>
+            <l>Before ſuch time as they this Summons heard,</l>
+            <l>With a ſubmiſſive Loyalty to wait,</l>
+            <pb n="8" facs="tcp:57797:6"/>
+            <l>And begge for pardon at the Palace gate.</l>
+            <l>Onely the <hi>Camel</hi> and ſome <hi>five</hi> with him</l>
+            <l>For their <hi>bunch'd backs</hi> could no way enter in.</l>
+            <l>The rare-compaſſionate <hi>Lyon</hi> ſtraight appears,</l>
+            <l>Regreets his Subjects both with threats and tears;</l>
+            <l>And that He might with <hi>Power</hi> and <hi>paſſion</hi> woo them</l>
+            <l>He thus imparts his royall mind unto them.</l>
+            <l>O with what freedom (Sirs) could we forgive,</l>
+            <l>If it might ſtand with our prerogative,</l>
+            <l>Your Wild licentious factions! but ſince</l>
+            <l>Theſe on our high endeared Honour trench,</l>
+            <l>Wee muſt extract ſome ill-digeſted blood,</l>
+            <l>"Who ſpares the ill, he ever ſpoiles the good.</l>
+            <l>Some of you held us ſuch a worthleſſe thing</l>
+            <l>As we deſerv'd not th' Title of a King.</l>
+            <l>We muſt deveſted be of Style and Place;</l>
+            <l>Now tell me, Sirs, if yee were in my caſe</l>
+            <l>Would this admit your pardon? Nought held Ours</l>
+            <l>But was deriv'd from that ſcrude power of yours.</l>
+            <l>Paſquills and Libels fix'd on ev'ry Gate</l>
+            <l>To make us hatefull to the eye of th' State.</l>
+            <l>And theſe things paſt with all impunitie,</l>
+            <l>As if Pens held their yeare of Jubilee.</l>
+            <l>Laſtly, <hi>How They</hi> ſo trecherouſly ſtout,</l>
+            <l>From our own <hi>purlue</hi> kept our <hi>preſence</hi> out.</l>
+            <l>This Clauſe produc'd ſuch paſſion, not an eye</l>
+            <l>Of all thoſe numerous Convertites was dry.</l>
+            <l>The very <hi>Crocodile</hi> and <hi>Hyene</hi> ſeem'd</l>
+            <l>Drilling down trickling tears, but they were feign'd;</l>
+            <l>For by their private muttering below</l>
+            <pb n="9" facs="tcp:57797:6"/>
+            <l>All might collect this was a painted ſhow;</l>
+            <l>"For who is the (jeer<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> they) would not rebell</l>
+            <l>"When ſuch attempts as theſe fall out ſo well?</l>
+            <l>"Or who'l not dare t' aſpire unto a Crowne,</l>
+            <l>"VVhen Treaſon may be pardoned ſo ſoon?</l>
+            <l>Which th' Prince perceiving, how no honeſt zeal</l>
+            <l>Ingag'd their Hearts to Prince nor Common weal,</l>
+            <l>But <hi>glozing faith,</hi> which at ſuch reſtleſſe times</l>
+            <l>Might breed diſtractions in malignant minds,</l>
+            <l>And nurſe <hi>freſh furies;</hi> On theſe and ten mo</l>
+            <l>Death was pronounced, and the reſt let go,</l>
+            <l>VVith this advertiſement; that if from thence</l>
+            <l>They ever ſwerv'd from their allegiance,</l>
+            <l>Or like diſ-loyall Subjects, did not give</l>
+            <l>All freedom to his high prerogative,</l>
+            <l>They ſhould loſe Lifes, lands, Liberties and State,</l>
+            <l>With Commons curſe, times brand, &amp; Princes hate.</l>
+            <l>This they ſubſcibed to with joynt expreſſion,</l>
+            <l>VVhile <hi>Vive le Roy</hi> cloſed this High Seſſion.</l>
+            <l>When th'other wags ſhould have their Tales be<g ref="char:EOLhyphen"/>gun,</l>
+            <l>They fell aſleep before this Tale was don.</l>
+            <l>Now what this Tell-tale told I dare tell you,</l>
+            <l>"The Tale's a Tale, but th'Morall may be true.</l>
+            <closer>
+               <dateline>From NEWARK.</dateline>
+               <signed>I.C.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:57797:7"/>
+            <pb n="11" facs="tcp:57797:7"/>
+            <head>Upon the late <hi>Babel Parliament;</hi> no leſs pitifully then penitently Diſſolv'd by the late laſt <hi>Protector,</hi> Inno<g ref="char:EOLhyphen"/>cent Dick <hi>CROMWEL.</hi>
+            </head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">D</seg>iſſolve <hi>Grand Synod,</hi> while we make your <hi>Houſe</hi>
+               </l>
+               <l>An Embleam of the <hi>Mountaine</hi> and the <hi>Mouſe.</hi>
+               </l>
+               <l>Much was expected by <hi>Eaſt, Weſt, South, North,</hi>
+               </l>
+               <l>And from your <hi>Teeming Birth</hi> ne're leſſe brought forth</l>
+               <l>Long Speches and ſmall Sence; Thoſe held the beſt</l>
+               <l>And wiſeſt Senatours that ſpake the leaſt.</l>
+               <l>One cryes up <hi>Monarchy;</hi> admires a Crown;</l>
+               <l>Another <hi>Democratick</hi> votes it down.</l>
+               <l>The third <hi>Ariſtocratick;</hi> Others be</l>
+               <l>For none of theſe but <hi>Plato</hi>'s Liberty,</l>
+               <l>Or <hi>Oligarchall State.</hi>—Some ſide with time,</l>
+               <l>Could wiſh a <hi>King,</hi> but none of <hi>Stuarts</hi> line;</l>
+               <l>For that concerns their int'reſt, and might fall</l>
+               <l>Heavy, in paying <hi>uſe</hi> and <hi>Principall</hi>
+               </l>
+               <l>To their abuſed <hi>Creditor,</hi> whoſe wrong</l>
+               <l>Tranſcends th' Expreſſion of a mortall tongue.</l>
+               <l>Thus ſome would crown a Prince, but when al's don</l>
+               <l>They know not well what Head to put it on.</l>
+               <l>Next ſtarts up th' <hi>Fifth Monarchiall,</hi> whoſe pretence</l>
+               <pb n="12" facs="tcp:57797:8"/>
+               <l>Seems to purſue an Argument of <hi>Sence:</hi>
+               </l>
+               <l>"As <hi>Senſes</hi> in accompt are <hi>Five</hi> in number,</l>
+               <l>"States ſhould be ſteer'd neither above nor under.</l>
+               <l>But One replyed tartly: "Sir, you might</l>
+               <l>"Account <hi>five Pottles</hi> that you drunk laſt night</l>
+               <l>"For our <hi>State governors</hi> as well as theſe,</l>
+               <l>"Since you inſiſt on <hi>Numbers,</hi> if you pleaſe.</l>
+               <l>Thus Judgment in <hi>diſtracted ranks</hi> appeares</l>
+               <l>Till <hi>Union</hi> through <hi>diſ-union</hi> fell by th' Eares;</l>
+               <l>But it prov'd <hi>Climias</hi> and <hi>Dametas</hi> Fight,</l>
+               <l>They challenged a <hi>Priviledge</hi> of <hi>Right,</hi>
+               </l>
+               <l>And that compos'd their Braule:—So th' <hi>Court</hi> broke up,</l>
+               <l>For it grew <hi>early,</hi> and high time to Sup:</l>
+               <l>Since which, when th' <hi>Synod higher Matters</hi> handles</l>
+               <l>For more refreſhing hours, they vote down Candles.</l>
+               <l>Next Morne, when dewy Sleep had cheer'd their braine,</l>
+               <l>
+                  <hi>Antaeus</hi>-like they enter'd <hi>Liſts</hi> againe;</l>
+               <l>Where with a vaſt expence of uſeleſſe words,</l>
+               <l>Their Sole debate was for an <hi>Houſe of Lords.</hi>
+               </l>
+               <l>Some held it fit this <hi>Lordly Houſe</hi> ſhould ſit,</l>
+               <l>Not to <hi>direct</hi> but to <hi>improve</hi> their wit:</l>
+               <l>And like <hi>Starrs</hi> in their <hi>Own Horizon fixt,</hi>
+               </l>
+               <l>To be with <hi>Antient Peers</hi> o'th' <hi>Kingdom</hi> mixt.</l>
+               <l>But when Theſe heard of <hi>Slingsby, Thimble by,</hi>
+               </l>
+               <l>With Others of that<note n="*" place="bottom">See the Eglogue of the <hi>Muſhrome</hi> in <hi>Muſaeus.</hi>
+                  </note> Muſhrome family,</l>
+               <l>They vow'd they never would diſhonour bring</l>
+               <l>By Sitting with a <hi>Thimble and a Sling,</hi>
+               </l>
+               <pb n="13" facs="tcp:57797:8"/>
+               <l>To their Extraction:—yet that Lower Fry</l>
+               <l>Who YEA and NO knew well enough to Cry,</l>
+               <l>That they might make ſome Act, took Speciall care,</l>
+               <l>which They perform'd in th' OPERA; COMMON PRAYER;</l>
+               <l>Both quite ſuppreſt; Small matter of the Firſt,</l>
+               <l>For 'twas contriv'd to quench a Poets thirſt,</l>
+               <l>A <hi>Malagaſco knight:</hi> The laſt might be</l>
+               <l>"They knew not what was ment by <hi>Liturgie,</hi>
+               </l>
+               <l>"Anthems, nor Antiphons:—impute this chance</l>
+               <l>To no <hi>Schiſme</hi> then but only <hi>Ignorance.</hi>
+               </l>
+               <l>But ſee how weake theſe <hi>Lordlings</hi> be! for yet</l>
+               <l>The <hi>Opera</hi> ſtand: <hi>Drake</hi> with his painted Fleet</l>
+               <l>Launceth amain like caſtles in the Ayre;</l>
+               <l>Though th' vote hold firm for Stifling <hi>Common-Prayer,</hi>
+               </l>
+               <l>Which they Stand little need of, as Some ſay,</l>
+               <l>Having ſo little leaſure yet to Pray.</l>
+               <l>The <hi>Cock-pit</hi> holds up ſtill for all the coſt</l>
+               <l>Beſtow'd on <hi>Drakes Fleet</hi> and the <hi>Savage roaſt;</hi>
+               </l>
+               <l>The <hi>Siege</hi> of <hi>Rhodes</hi> too, which preſents more Scarrs</l>
+               <l>Then this <hi>Knight</hi> felt in all our Civile VVars;</l>
+               <l>Yet fought he with advantage we ſuppoſe,</l>
+               <l>Having the <hi>French</hi> to ſuperſede his Noſe.</l>
+               <l>But theſe be trifles; we muſt Scratch our pate</l>
+               <l>And mould the Conſtitution of our ſtate,</l>
+               <l>And by the pencyle of an Artiſt ſhow</l>
+               <l>VVhether theſe Senatours look Blew or no.</l>
+               <l>And now when th' Door's ſhut up, and all diſmiſt,</l>
+               <l>Our <hi>Conſul—Colonels</hi> and <hi>Learned Liſt</hi>
+               </l>
+               <pb n="14" facs="tcp:57797:9"/>
+               <l>Of <hi>grave Juſtinians</hi> and <hi>Lapwings</hi> too,</l>
+               <l>VVho never were taught more then <hi>Yes</hi> and <hi>No,</hi>
+               </l>
+               <l>And with <hi>thin ſhells</hi> on <hi>Head,</hi> could ſcare on high,</l>
+               <l>Leaving their Neſts before they learn'd to fly.</l>
+               <l>
+                  <note n="*" place="bottom">This <hi>Paſquill</hi> was writ before the <hi>Prote<gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ors</hi> ſi<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ple ſurprize.</note>VVe poor <hi>Plebeians</hi> much deſire to know</l>
+               <l>VVhether we have PROTECTOR yet or no?</l>
+               <l>How th' <hi>Navy</hi> ſtands provided? by what ground</l>
+               <l>They ſteer their Courſe? what muſt be done at Sound?</l>
+               <l>When muſt the <hi>Army</hi> have th' <hi>Arrears</hi> diſcharg'd?</l>
+               <l>VVhen <hi>honeſt Cavaleers</hi> from <hi>Tower</hi> inlarg'd?</l>
+               <l>Whether that <hi>Fine</hi> which is on BARKSTEAD laid,</l>
+               <l>Muſt be remitted, or expreſly paid?</l>
+               <l>And if He has not lately loſt his VVits</l>
+               <l>By rendring his <hi>Lievetenancy</hi> to FITTS?</l>
+               <l>VVhat poſture of <hi>State policy?</hi> what Hand</l>
+               <l>VVhether by <hi>mixt</hi> ot <hi>abſolute</hi> Command</l>
+               <l>Muſt govern this <hi>diſtracted Iſle?</hi> what way,</l>
+               <l>Or in what manner muſt we learn to pray?</l>
+               <l>VVhat <hi>Clavis</hi> ſhould informe us in the <hi>word</hi>
+               </l>
+               <l>
+                  <hi>(From th' leven of Aſſemblies bleſſe us Lord;)</hi>
+               </l>
+               <l>VVhether the <hi>Quaker</hi> or the <hi>Neuter</hi> muſt</l>
+               <l>Lay <hi>Preſbiteriall Principles</hi> in duſt?</l>
+               <l>VVhether th' <hi>Armenian</hi> or <hi>Socinian</hi> ſhall,</l>
+               <l>If the world change, receive the higher call?</l>
+               <l>Shall not the <hi>Swede</hi> in his declining Raign</l>
+               <l>Loſe our Eſteeme for all <hi>Will Lillies</hi> Chaine?</l>
+               <l>And falling now upon theſe dang'rous Shelves,</l>
+               <l>Should you by <hi>aydi<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>g</hi> Him, not <hi>loſe</hi> your ſelves?</l>
+               <pb n="15" facs="tcp:57797:9"/>
+               <l>Did not your joynt approv'd intelligence</l>
+               <l>Conceive ſuch Pow<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r in your preeminence,</l>
+               <l>
+                  <note n="*" place="bottom">This Devination needs no <hi>Oedipus,</hi> if it were wrapt up in a darker Ridle, Says deluded RICHARD.</note>As to give your <hi>Authentick Strength</hi> it's due,</l>
+               <l>Th' <hi>Protector</hi> ought more reverence to you</l>
+               <l>Then you to Him: and in plaine terms aver</l>
+               <l>Him no Eſsentiall Prince but <hi>Titular?</hi>
+               </l>
+               <l>Did your vote hold, th' <hi>Act</hi> of <hi>Adultery</hi>
+               </l>
+               <l>To be a Crime of that <hi>Mortality</hi>
+               </l>
+               <l>As it deſerved <hi>Death?</hi>—Did't not appear</l>
+               <l>That this was firſt enacted out of <hi>Fear</hi>
+               </l>
+               <l>Rather then <hi>Conſcience;</hi> leſt Some <hi>Ranter</hi> might</l>
+               <l>By your <hi>Defects</hi> incroach upon your Right?</l>
+               <l>But leaving theſe; How did your prudent Watch,</l>
+               <l>Seek by prevention to dive<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t that Match</l>
+               <l>'Twixt <hi>Spaine</hi> and <hi>France?</hi> an <hi>Act</hi> of Conſequence,</l>
+               <l>VVhich ſhould you fruſtrate by your providence,</l>
+               <l>It were a <hi>grand deſign,</hi> and ſuch a feat,</l>
+               <l>It might procure a <hi>Kingdom</hi> by <hi>Eſcheat</hi>
+               </l>
+               <l>To th' <hi>Heire apparent:</hi> But both Pates and States</l>
+               <l>Muſt yeeld Submiſſion to the will of Fates.</l>
+               <l>"Your <hi>Power</hi> i'th' <hi>Houſe</hi> was ſuch, none could withſtand it,</l>
+               <l>"But there's an <hi>Upper Houſe</hi> can countermand it.</l>
+               <l>—BUT They'r <hi>diſſolv'd;</hi> each hyes unto his home,</l>
+               <l>Like Bees to <hi>Hives</hi> without an honey-Combe:</l>
+               <l>For how were't poſſible They ſhould b<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing more</l>
+               <l>Sucking rank poyſon from the <hi>Helebore?</hi>
+               </l>
+               <l>"Fury, Diſtraction, Envy, Diſcontent</l>
+               <pb n="16" facs="tcp:57797:10"/>
+               <l>"Brought up both <hi>Front</hi> and <hi>Reere</hi> i'th' Regiment.</l>
+               <l>Now have we time t' <hi>imagin,</hi> if you pleaſe,</l>
+               <l>The Burgeſs and his Bride being laid at eaſe,</l>
+               <l>How they diſcours'd; wherein She clearly ſhews</l>
+               <l>Her Native Appetite to forraign News.</l>
+               <l>For Scarcely had he yet imployd a <hi>Sence,</hi>
+               </l>
+               <l>Or Conſul, like pay'd <hi>due Benevolence,</hi>
+               </l>
+               <l>Which by a <hi>quick conception</hi> might incline</l>
+               <l>To th' <hi>Member</hi> of a <hi>Parliament</hi> in time;</l>
+               <l>Till ſhe incounters her <hi>Endimion Hector</hi>
+               </l>
+               <l>VVith this familiar ſecret <hi>Curtain Lecture.</hi>
+               </l>
+               <l>"Tell me, my Dear, what may enacted be</l>
+               <l>"Since your Addreſſes took a leave of me:</l>
+               <l>And pinching him, quoth ſhe, ſpeak to me <hi>Slowthing,</hi>
+               </l>
+               <l>"What have you done? He ſnorting anſwer'd—<hi>Nothing.</hi>
+               </l>
+               <l>"What a <hi>State-Clod</hi> is this!—How ſat thoſe <hi>Scots</hi>
+               </l>
+               <l>"And <hi>Iriſh</hi> in your <hi>Senate-houſe?—like Scots.</hi>
+               </l>
+               <l>"VVhat a <hi>ſad Conſul</hi>'s this! Speak, who muſt pay</l>
+               <l>"The <hi>Army</hi> their <hi>arrears?—whom they obey.</hi>
+               </l>
+               <l>"VVho may that be; <hi>Protector,</hi> or the <hi>Senat?</hi>
+               </l>
+               <l>"—<hi>Pray thee no more, I was not there this ſennet.</hi>
+               </l>
+               <l>"A carefull Commonwealths man, truſt me; could</l>
+               <l>"Your ſervice to your Countrey be ſo cold?</l>
+               <l>"Surely ſuch <hi>Members</hi> ſtood in need of Curing:</l>
+               <l>"—So did the <hi>HOVSE too, for a dangerous Murren</hi>
+               </l>
+               <l>"—<hi>Had influence ore the Conſuls: for Some dyde</hi>
+               </l>
+               <l>"—<hi>(To their advantage) ere their witts were tryde,</hi>
+               </l>
+               <l>"A wiſe diſpatch!—But why ſat you ſo long?</l>
+               <l>"—<hi>We ſat indeed, till we had loſt our tongue,</hi>
+               </l>
+               <pb n="17" facs="tcp:57797:10"/>
+               <l> "—<hi>Our</hi> SPEAKER <hi>grew infirm, judicious</hi> CHUTE;</l>
+               <l>"—<hi>How ſhould we then hold out, when He ſtood mute?</hi>
+               </l>
+               <l>"—<note n="*" place="bottom">CHALLINER CHUTE, LISLEBONE LONG Recorder of LONDON, THOMAS BAMPFIELD Recorder of EXCETER.</note> 
+                  <hi>Yet one ſupply'd him, weaker farre though ſtrong</hi>
+               </l>
+               <l>"—<hi>For</hi> CHUTE <hi>was pithy, but his Lungs were long;</hi>
+               </l>
+               <l>"—<hi>But One an other from their Office putts,</hi>
+               </l>
+               <l>"—<hi>For LISLEBONE LONG grew gangreen'd in his gutts:</hi>
+               </l>
+               <l>"—And <hi>BAMFIELD ſtreight deſigned for the</hi> Chair,</l>
+               <l>"—<hi>Heav'ns bleſſe Him from his</hi> Predeceſſors <hi>ayre;</hi>
+               </l>
+               <l>"—<hi>Leſt He ſink ſuddenly into his Tombe,</hi>
+               </l>
+               <l>"—<hi>As many of our Senatours</hi> have done.</l>
+               <l>"—<hi>Nor skills it much if this Employment weare him,</hi>
+               </l>
+               <l>"—<hi>Being no fleſh, nor fiſh, nor good red Hering.</hi>
+               </l>
+               <l>"How fares your grave <hi>Petition</hi> of <hi>Advice?</hi>
+               </l>
+               <l>"—Quite <hi>loſt in reputation of the VViſe.</hi>
+               </l>
+               <l>But for the <hi>Court—deſign,</hi> what votes have done it?</l>
+               <l>"—<hi>The Iriſh trouſes, and the Scottiſh bonnet.</hi>
+               </l>
+               <l>"—<hi>Though ſince our Protectorians loſt that point,</hi>
+               </l>
+               <l>"—<hi>For their State-noſes now are out of joynt.</hi>
+               </l>
+               <l>"But what <hi>Diſolv'd</hi> you? I ſhall councell keep,</l>
+               <l>"Reſolve me this, I'l give thee leave to ſleep.</l>
+               <l>"Was it th' <hi>Protector,</hi> or the <hi>Houſe of Lords!</hi>
+               </l>
+               <l>"—No; but a <hi>Regiment</hi> of <hi>daring ſwords.</hi>
+               </l>
+               <l>"—That did the work; ſo as, I hold it vaine</l>
+               <l>"—For any <hi>Member</hi> to <hi>ſtand</hi> up againe</l>
+               <l>"—And there was Reaſon for't, our <hi>ſould<gap reason="illegible" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>
+                  </hi> ſay,</l>
+               <pb n="18" facs="tcp:57797:11"/>
+               <l> "—For by this means they may injoyne their pay.</l>
+               <l>VVell; by my <hi>vote,</hi> Men ſhall no more be ſent,</l>
+               <l>Fenceforth let's have a <hi>Salique Parliament.</hi>
+               </l>
+               <l>For though the <hi>Maſculine</hi> be th' <hi>worthier Gender;</hi>
+               </l>
+               <l>The <hi>Feminine</hi> may prove as <hi>ſound</hi> a <hi>Member:</hi>
+               </l>
+               <l>Then to exclude us, were it not great pittie,</l>
+               <l>Since wee'r held fitteſt for a <hi>Cloſe Committee?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Sleep <hi>Salique Burgeſſe;</hi> coople, coll and kiſſe,</l>
+               <l>No Burgeſſe Place is either thine or His.</l>
+               <l>Our <hi>Seſſions</hi> nurture no ſuch <hi>Cubbs</hi> as you,</l>
+               <l>"New Conſuls muſt bid <hi>VVeſtminſter</hi> adue.</l>
+               <l>The <hi>Good old Cauſe</hi> mounts now with Eagle wings,</l>
+               <l>Lopping light Heads off as it did the Kings:</l>
+               <l>And though their <hi>Number</hi> ſcarcely make a vote,</l>
+               <l>
+                  <hi>Prynns</hi> prating muſt not make them change their Note.</l>
+            </lg>
+            <byline>Theſe two Poems, Intituled, THE LYONS TALE <hi>AND</hi> THE BRAINS-TRAP <hi>PARLIAMENT,</hi> Were compoſed by the pregnanſt Fancies and cleareſt Judgements of our time.</byline>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:57797:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>
